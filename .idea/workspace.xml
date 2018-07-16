@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afa1f4fe-f2b7-416b-a2d1-d3d576fae5df" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UdemyCucumber.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CucumberFramework/WebDriver/Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CucumberFramework/WebPages/HomePage/HomeElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CucumberFramework/WebPages/HomePage/HomeHelpers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CucumberFramework/featureFiles/Blank.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CucumberFramework/featureFiles/ContactUs.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CucumberFramework/featureFiles/Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CucumberFramework/resources/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CucumberFramework/resources/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CucumberFramework/runner/MainRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CucumberFramework/steps/LoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testNg.xml" afterDir="false" />
-    </list>
+    <list default="true" id="afa1f4fe-f2b7-416b-a2d1-d3d576fae5df" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,6 +28,7 @@
               <caret line="203" column="50" selection-start-line="203" selection-start-column="50" selection-end-line="203" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2162#2170#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -622,8 +603,16 @@
       <workItem from="1531691394690" duration="134000" />
       <workItem from="1531691552100" duration="73000" />
       <workItem from="1531691648329" duration="6524000" />
-      <workItem from="1531700075375" duration="273000" />
+      <workItem from="1531700075375" duration="569000" />
     </task>
+    <task id="LOCAL-00001" summary="Uploading project">
+      <created>1531700415410</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1531700415410</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -659,7 +648,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112849000" />
+    <option name="totallyTimeSpent" value="113145000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -746,6 +735,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Uploading project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uploading project" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -822,6 +815,7 @@
           <caret line="34" column="71" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2162#2170#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1104,6 +1098,7 @@
           <caret line="203" column="50" selection-start-line="203" selection-start-column="50" selection-end-line="203" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2162#2170#0" expanded="true" />
           </folding>
         </state>
       </provider>
