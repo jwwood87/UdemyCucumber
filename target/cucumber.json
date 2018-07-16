@@ -1,0 +1,830 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3616513246,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Do nothing",
+        "description": "Description for this scenario",
+        "id": "nada;do-nothing",
+        "after": [
+          {
+            "result": {
+              "duration": 802457941,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 88823442,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User does nothing",
+            "match": {
+              "location": "LoginSteps.user_does_nothing()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Nada",
+    "description": "Try to figure out why Selenium is launching two browsers at start up, not just one",
+    "id": "nada",
+    "keyword": "Feature",
+    "uri": "Blank.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3122477760,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Submit Information into the Contact Us form",
+        "description": "",
+        "id": "webdriver-university:-contact-us-form;submit-information-into-the-contact-us-form",
+        "after": [
+          {
+            "result": {
+              "duration": 849377038,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3528528348,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I access WebDriver University",
+            "match": {
+              "location": "LoginSteps.Access_WebDriver_University()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 263599711,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the Contact Us button",
+            "match": {
+              "location": "LoginSteps.ClickOnTheContactUsButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1145600243,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter a First name",
+            "match": {
+              "location": "LoginSteps.EnterFirstName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123385138,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter a Last name",
+            "match": {
+              "location": "LoginSteps.EnterLastName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 221464968,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter an email address",
+            "match": {
+              "location": "LoginSteps.EnterEmailAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 221982088,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter comments",
+            "match": {
+              "location": "LoginSteps.EnterComments()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1406165502,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicks on the SUBMIT button",
+            "match": {
+              "location": "LoginSteps.ClickSubmitButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31607458,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the information is submitted via Contact Us form",
+            "match": {
+              "location": "LoginSteps.theInformationIsSubmittedViaContactUsForm()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@John"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3111324128,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Reset button removes the Contact Us information",
+        "description": "",
+        "id": "webdriver-university:-contact-us-form;reset-button-removes-the-contact-us-information",
+        "after": [
+          {
+            "result": {
+              "duration": 811020854,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3302824020,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I access WebDriver University",
+            "match": {
+              "location": "LoginSteps.Access_WebDriver_University()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 207732563,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on the Contact Us button",
+            "match": {
+              "location": "LoginSteps.ClickOnTheContactUsButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1149416917,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter a First name",
+            "match": {
+              "location": "LoginSteps.EnterFirstName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121057245,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter a Last name",
+            "match": {
+              "location": "LoginSteps.EnterLastName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 198168975,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter an email address",
+            "match": {
+              "location": "LoginSteps.EnterEmailAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 233587418,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I enter comments",
+            "match": {
+              "location": "LoginSteps.EnterComments()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55966135,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click the RESET button",
+            "match": {
+              "location": "LoginSteps.i_click_the_RESET_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30151,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the information on the Contact Us form is removed",
+            "match": {
+              "location": "LoginSteps.the_information_on_the_Contact_Us_form_is_removed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@Lori"
+          }
+        ]
+      }
+    ],
+    "name": "WebDriver University: Contact Us Form",
+    "description": "A user should be able to submit information via the ContactUs form\r\nIf a user clicks on the Reset button, then all information is removed from the form",
+    "id": "webdriver-university:-contact-us-form",
+    "keyword": "Feature",
+    "uri": "ContactUs.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Family"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3126453724,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Login into account with correct credentials number 1",
+        "description": "Description for this scenario",
+        "id": "login-into-account-feature1;login-into-account-with-correct-credentials-number-1",
+        "after": [
+          {
+            "result": {
+              "duration": 59164,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3714728472,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "a user navigates to \"www.webdriveruniversity.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "www.webdriveruniversity.com",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginSteps.navigatesToEndpoint(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 605833498,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 10,
+                "value": "#    And user clicks on an \u0027a\u0027 element that contains the text string \"Log In\""
+              }
+            ],
+            "line": 11,
+            "name": "I click on the LoginPortal button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_LoginPortal_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1131321136,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters a valid username1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginSteps.user_enters_a_valid_username(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75140530,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters a valid password1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginSteps.user_enters_a_valid_password(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3066321616,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on the submit button1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginSteps.user_clicks_on_the_submit_button(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3016091017,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is taken to the successful login page1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 42
+                }
+              ],
+              "location": "LoginSteps.user_is_taken_to_the_successful_login_page(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 777158890,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I close the browser",
+            "match": {
+              "location": "LoginSteps.iCloseTheBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3150351033,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setup()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Login to account with credentials",
+        "description": "This is an example to run multiples scenarios with the same set of test steps",
+        "id": "login-into-account-feature1;login-to-account-with-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 49493,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3560453245,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "a user navigates to \"www.webdriveruniversity.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "www.webdriveruniversity.com",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginSteps.navigatesToEndpoint(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2915840877,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on the LoginPortal button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_LoginPortal_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1180688162,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "a user enters \"webdriveruniversity2@mailz.com\" in the userName text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webdriveruniversity2@mailz.com",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginSteps.entersInTheUserNameTextField(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63035146,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "a user enters a \"Yellow321!\" in the password text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Yellow321!",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.entersInThePasswordTextField(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3072676104,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user clicks the Login Submit button",
+            "match": {
+              "location": "LoginSteps.user_clicks_the_Login_Submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3011236690,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user is presented with a \"Fail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fail",
+                  "offset": 30
+                }
+              ],
+              "location": "LoginSteps.the_user_is_presented_with_a(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 803166776,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I close the browser",
+            "match": {
+              "location": "LoginSteps.iCloseTheBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3134594522,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setup()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Login to account with credentials",
+        "description": "This is an example to run multiples scenarios with the same set of test steps",
+        "id": "login-into-account-feature1;login-to-account-with-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 72249,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3419412076,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "a user navigates to \"www.webdriveruniversity.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "www.webdriveruniversity.com",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginSteps.navigatesToEndpoint(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 600485376,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on the LoginPortal button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_LoginPortal_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1151063281,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "a user enters \"webdriver\" in the userName text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webdriver",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginSteps.entersInTheUserNameTextField(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64193404,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "a user enters a \"webdriver123\" in the password text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "webdriver123",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.entersInThePasswordTextField(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3096365200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user clicks the Login Submit button",
+            "match": {
+              "location": "LoginSteps.user_clicks_the_Login_Submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3020507870,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user is presented with a \"Succeed\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Succeed",
+                  "offset": 30
+                }
+              ],
+              "location": "LoginSteps.the_user_is_presented_with_a(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 806454953,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I close the browser",
+            "match": {
+              "location": "LoginSteps.iCloseTheBrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Login into account feature1",
+    "description": "Existing user should be able to login to account using the correct credentials",
+    "id": "login-into-account-feature1",
+    "keyword": "Feature",
+    "uri": "Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Smoke"
+      }
+    ]
+  }
+]
