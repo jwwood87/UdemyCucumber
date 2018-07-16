@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afa1f4fe-f2b7-416b-a2d1-d3d576fae5df" name="Default" comment="" />
+    <list default="true" id="afa1f4fe-f2b7-416b-a2d1-d3d576fae5df" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/CucumberFramework/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CucumberFramework/steps/LoginSteps.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +26,8 @@
       <file leaf-file-name="LoginSteps.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/CucumberFramework/steps/LoginSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="203" column="50" selection-start-line="203" selection-start-column="50" selection-end-line="203" selection-end-column="50" />
+            <state relative-caret-position="102">
+              <caret line="186" column="63" selection-start-line="186" selection-start-column="63" selection-end-line="186" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2162#2170#0" expanded="true" />
@@ -603,7 +605,7 @@
       <workItem from="1531691394690" duration="134000" />
       <workItem from="1531691552100" duration="73000" />
       <workItem from="1531691648329" duration="6524000" />
-      <workItem from="1531700075375" duration="569000" />
+      <workItem from="1531700075375" duration="856000" />
     </task>
     <task id="LOCAL-00001" summary="Uploading project">
       <created>1531700415410</created>
@@ -648,7 +650,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113145000" />
+    <option name="totallyTimeSpent" value="113432000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1094,8 +1096,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CucumberFramework/steps/LoginSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="203" column="50" selection-start-line="203" selection-start-column="50" selection-end-line="203" selection-end-column="50" />
+        <state relative-caret-position="102">
+          <caret line="186" column="63" selection-start-line="186" selection-start-column="63" selection-end-line="186" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2162#2170#0" expanded="true" />
