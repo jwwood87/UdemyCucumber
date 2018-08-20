@@ -184,7 +184,7 @@ this.webDriver = new FirefoxDriver();
 
     @When("^a user enters \"([^\"]*)\" in the userName text field$")
     public void entersInTheUserNameTextField(String userName) throws Throwable {
-        System.out.println("\n" + "The current window handle: " + " " + webDriver.getWindowHandle());
+        System.out.println("\n" + "The current window handle is: " + " " + webDriver.getWindowHandle());
 
         System.out.println("\n" + "Going to the next tab..." + "\n");
         for (String winHandle : webDriver.getWindowHandles()) {
