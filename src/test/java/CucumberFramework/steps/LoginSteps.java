@@ -10,6 +10,8 @@ import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+
+import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
@@ -20,13 +22,13 @@ public class LoginSteps {
     WebDriver webDriver;
 
     @Before()
-    public void setup(){
+    public void setup() throws IOException {
         System.out.println("\n" + "Entering LoginSteps.java setup");
 /*
 System.setProperty("webdriver.gecko.driver","C:\\Users\\jwwoo\\Documents\\LocalRepo\\src\\test\\java\\CucumberFramework\\resources\\geckodriver.exe");
 this.webDriver = new FirefoxDriver();
 */
-        System.setProperty("webdriver.chrome.driver", Paths.get(System.getProperty("user.dir")).toAbsolutePath() + "\\src\\test\\java\\CucumberFramework\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", Paths.get(System.getProperty("user.dir")).toRealPath() + "\\src\\test\\java\\CucumberFramework\\resources\\chromedriver.exe");
         this.webDriver = new ChromeDriver();
         this.webDriver.manage().window().maximize();
         this.webDriver.manage().timeouts().pageLoadTimeout(60,TimeUnit.SECONDS);
