@@ -1,12 +1,108 @@
 [
   {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3689336162,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Go On!",
+        "description": "",
+        "id": "nada;go-on!",
+        "after": [
+          {
+            "result": {
+              "duration": 822012618,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3257940278,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "a user navigates to \"http://webdriveruniversity.com/Page-Object-Model/products.html\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://webdriveruniversity.com/Page-Object-Model/products.html",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginSteps.navigatesToEndpoint(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10159532032,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clicks on the button identified with \"#container-special-offers div.section-title \u003e p\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "#container-special-offers div.section-title \u003e p",
+                  "offset": 38
+                }
+              ],
+              "location": "LoginSteps.clicksOnTheButtonIdentified(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 70894466,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the Proceed button is there",
+            "match": {
+              "location": "LoginSteps.theProceedButtonIsThere()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Nada",
+    "description": "Try to figure out why Selenium is launching two browsers at start up, not just one",
+    "id": "nada",
+    "keyword": "Feature",
+    "uri": "Blank.feature"
+  },
+  {
     "line": 2,
     "elements": [
       {
         "before": [
           {
             "result": {
-              "duration": 3591191208,
+              "duration": 3182018535,
               "status": "passed"
             },
             "match": {
@@ -21,7 +117,7 @@
         "after": [
           {
             "result": {
-              "duration": 257707,
+              "duration": 897416672,
               "status": "passed"
             },
             "match": {
@@ -34,8 +130,9 @@
         "steps": [
           {
             "result": {
-              "duration": 3798837987,
-              "status": "passed"
+              "duration": 56781450,
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {\"code\":-32000,\"message\":\"Cannot navigate to invalid URL\"}\n  (Session info: chrome\u003d68.0.3440.106)\n  (Driver info: chromedriver\u003d2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027DESKTOP-Q06AMIK\u0027, ip: \u0027192.168.0.13\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002710.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\\Users\\jwwoo\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}\nSession ID: f0c6e8febaab4b88ea6552f7d9bd041b\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)\r\n\tat CucumberFramework.steps.LoginSteps.navigatesToEndpoint(LoginSteps.java:176)\r\n\tat ✽.Given a user navigates to \"www.webdriveruniversity.com\"(Login.feature:9)\r\n",
+              "status": "failed"
             },
             "line": 9,
             "name": "a user navigates to \"www.webdriveruniversity.com\"",
@@ -52,8 +149,7 @@
           },
           {
             "result": {
-              "duration": 438553156,
-              "status": "passed"
+              "status": "skipped"
             },
             "comments": [
               {
@@ -70,8 +166,7 @@
           },
           {
             "result": {
-              "duration": 1148275242,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 12,
             "name": "user enters a valid username1",
@@ -88,8 +183,7 @@
           },
           {
             "result": {
-              "duration": 75413070,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 13,
             "name": "user enters a valid password1",
@@ -106,8 +200,7 @@
           },
           {
             "result": {
-              "duration": 3078743347,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 14,
             "name": "user clicks on the submit button1",
@@ -124,8 +217,7 @@
           },
           {
             "result": {
-              "duration": 3018462726,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
             "name": "user is taken to the successful login page1",
@@ -142,8 +234,7 @@
           },
           {
             "result": {
-              "duration": 862966006,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 16,
             "name": "I close the browser",
@@ -164,7 +255,7 @@
         "before": [
           {
             "result": {
-              "duration": 3300930930,
+              "duration": 3105787314,
               "status": "passed"
             },
             "match": {
@@ -179,7 +270,7 @@
         "after": [
           {
             "result": {
-              "duration": 146204,
+              "duration": 856646054,
               "status": "passed"
             },
             "match": {
@@ -192,8 +283,9 @@
         "steps": [
           {
             "result": {
-              "duration": 3228739478,
-              "status": "passed"
+              "duration": 37506329,
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {\"code\":-32000,\"message\":\"Cannot navigate to invalid URL\"}\n  (Session info: chrome\u003d68.0.3440.106)\n  (Driver info: chromedriver\u003d2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027DESKTOP-Q06AMIK\u0027, ip: \u0027192.168.0.13\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002710.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\\Users\\jwwoo\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}\nSession ID: 5bcfb5ee54bb2da3e658a2728f2def97\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)\r\n\tat CucumberFramework.steps.LoginSteps.navigatesToEndpoint(LoginSteps.java:176)\r\n\tat ✽.Given a user navigates to \"www.webdriveruniversity.com\"(Login.feature:21)\r\n",
+              "status": "failed"
             },
             "line": 21,
             "name": "a user navigates to \"www.webdriveruniversity.com\"",
@@ -213,8 +305,7 @@
           },
           {
             "result": {
-              "duration": 335366922,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 22,
             "name": "I click on the LoginPortal button",
@@ -225,8 +316,7 @@
           },
           {
             "result": {
-              "duration": 1201027186,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 23,
             "name": "a user enters \"webdriveruniversity2@mailz.com\" in the userName text field",
@@ -246,8 +336,7 @@
           },
           {
             "result": {
-              "duration": 69562615,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 24,
             "name": "a user enters a \"Yellow321!\" in the password text field",
@@ -267,8 +356,7 @@
           },
           {
             "result": {
-              "duration": 3079358884,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 25,
             "name": "user clicks the Login Submit button",
@@ -279,8 +367,7 @@
           },
           {
             "result": {
-              "duration": 3010868056,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 26,
             "name": "the user is presented with a \"Fail\"",
@@ -300,8 +387,7 @@
           },
           {
             "result": {
-              "duration": 792655870,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 27,
             "name": "I close the browser",
@@ -322,7 +408,7 @@
         "before": [
           {
             "result": {
-              "duration": 3103541789,
+              "duration": 3185592299,
               "status": "passed"
             },
             "match": {
@@ -337,7 +423,7 @@
         "after": [
           {
             "result": {
-              "duration": 40960,
+              "duration": 819296170,
               "status": "passed"
             },
             "match": {
@@ -350,8 +436,9 @@
         "steps": [
           {
             "result": {
-              "duration": 3554074611,
-              "status": "passed"
+              "duration": 37274221,
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {\"code\":-32000,\"message\":\"Cannot navigate to invalid URL\"}\n  (Session info: chrome\u003d68.0.3440.106)\n  (Driver info: chromedriver\u003d2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027DESKTOP-Q06AMIK\u0027, ip: \u0027192.168.0.13\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002710.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\\Users\\jwwoo\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}\nSession ID: 9923db40520633e1e0cd1b93c3f153f6\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:271)\r\n\tat CucumberFramework.steps.LoginSteps.navigatesToEndpoint(LoginSteps.java:176)\r\n\tat ✽.Given a user navigates to \"www.webdriveruniversity.com\"(Login.feature:21)\r\n",
+              "status": "failed"
             },
             "line": 21,
             "name": "a user navigates to \"www.webdriveruniversity.com\"",
@@ -371,8 +458,7 @@
           },
           {
             "result": {
-              "duration": 471240951,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 22,
             "name": "I click on the LoginPortal button",
@@ -383,8 +469,7 @@
           },
           {
             "result": {
-              "duration": 1534860952,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 23,
             "name": "a user enters \"webdriver\" in the userName text field",
@@ -404,8 +489,7 @@
           },
           {
             "result": {
-              "duration": 101821469,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 24,
             "name": "a user enters a \"webdriver123\" in the password text field",
@@ -425,8 +509,7 @@
           },
           {
             "result": {
-              "duration": 3070078597,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 25,
             "name": "user clicks the Login Submit button",
@@ -437,8 +520,7 @@
           },
           {
             "result": {
-              "duration": 3009688181,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 26,
             "name": "the user is presented with a \"Succeed\"",
@@ -458,8 +540,7 @@
           },
           {
             "result": {
-              "duration": 784176010,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 27,
             "name": "I close the browser",

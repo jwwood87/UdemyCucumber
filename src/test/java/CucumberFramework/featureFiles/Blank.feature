@@ -6,3 +6,9 @@ Feature: Nada
 
     Given User does nothing
 
+@Smoke
+    Scenario: Go On!
+
+      Given a user navigates to "http://webdriveruniversity.com/Page-Object-Model/products.html"
+      Given clicks on the button identified with "#container-special-offers div.section-title > p"
+      Then the Proceed button is there

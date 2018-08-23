@@ -6,6 +6,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.And;
+import gherkin.lexer.Th;
 import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -37,6 +38,7 @@ this.webDriver = new FirefoxDriver();
     @After()
     public void tearDown(){
         System.out.println("\n" + "Entering the LoginSteps.java tearDown phase");
+        this.webDriver.manage().deleteAllCookies();
         this.webDriver.quit();
     }
 
@@ -109,6 +111,8 @@ this.webDriver = new FirefoxDriver();
     public void theInformationIsSubmittedViaContactUsForm() {
         boolean thanksMessage = webDriver.findElement(By.xpath("//h1[contains(text(), 'Thank You for your Message')]")).isDisplayed();
         org.testng.Assert.assertTrue(thanksMessage, "Sorry, the expected Thanks message is not displayed");
+        WebElement valuestring = webDriver.findElement((By.cssSelector("#contact_reply h1")));
+        System.out.println("\nValuestring is: " + valuestring.getText().toLowerCase().replaceAll("[ ()0-9]", ""));
     }
 
     @Given("^User navigates to stackoverflow website(\\d+)$")
@@ -168,14 +172,29 @@ this.webDriver = new FirefoxDriver();
     @Given("^a user navigates to \"([^\"]*)\"$")
     public void navigatesToEndpoint(String endPoint) throws Throwable {
 
-        System.out.println(("the endopint is " + endPoint));
-        webDriver.get("http://" + endPoint);
+        System.out.println(("the endpoint is " + endPoint));
+        webDriver.get(endPoint);
+    }
+
+    @Given("clicks on the button identified with \"([^\"]*)\"$")
+    public void clicksOnTheButtonIdentified(String arg1) throws InterruptedException {
+
+        Thread.sleep(5000);
+        webDriver.findElement(By.cssSelector("#container-special-offers div.section-title p")).click();
+        Thread.sleep(5000);
     }
 
     @Given("^user clicks on an 'a' element that contains the text string \"([^\"]*)\"$")
     public void user_clicks_on_an_a_element_that_contains_the_text_string(String arg1) throws Throwable {
 
         webDriver.findElement(By.xpath("//a[contains(text(), 'Log In')]")).click();
+    }
+
+    @Then("^the Proceed button is there")
+    public void theProceedButtonIsThere() {
+
+        boolean john = webDriver.findElement(By.xpath("//button[text()='Proceed']")).isDisplayed();
+        Assert.assertTrue(john);
     }
 
     @Given("^a user clicks the login portal button$")
