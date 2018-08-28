@@ -1,12 +1,9 @@
-package CucumberFramework.runner;
+package runners;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 import org.junit.runner.RunWith;
-import org.testng.annotations.AfterClass;
-import com.cucumber.listener.Reporter;
-import java.io.File;
 
 @RunWith(Cucumber.class)
 @CucumberOptions (
