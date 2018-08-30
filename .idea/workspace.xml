@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afa1f4fe-f2b7-416b-a2d1-d3d576fae5df" name="Default" comment="Implemented Constants">
+    <list default="true" id="afa1f4fe-f2b7-416b-a2d1-d3d576fae5df" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stepDefinitions/ContactUsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepDefinitions/ContactUsSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Constant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/MainRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/MainRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CucumberFramework-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/formatter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/jquery-1.8.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CucumberFramework/runner/MainRunner.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -91,8 +78,8 @@
       <file leaf-file-name="ContactUsSteps.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/stepDefinitions/ContactUsSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -761,7 +748,7 @@
       <workItem from="1531691648329" duration="6524000" />
       <workItem from="1531700075375" duration="569000" />
       <workItem from="1535509057853" duration="3353000" />
-      <workItem from="1535593375168" duration="3550000" />
+      <workItem from="1535593375168" duration="3794000" />
     </task>
     <task id="LOCAL-00001" summary="Uploading project">
       <created>1531700415410</created>
@@ -784,7 +771,21 @@
       <option name="project" value="LOCAL" />
       <updated>1535512393514</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added ReadConfigFile class and config property file">
+      <created>1535597261135</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1535597261135</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added missing file updates">
+      <created>1535597378861</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1535597378861</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -820,7 +821,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121584000" />
+    <option name="totallyTimeSpent" value="121828000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -833,11 +834,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32741398" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49895832" weight="0.23973364" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49895832" visible="true" weight="0.23973364" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -845,7 +845,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6354167" visible="true" weight="0.3862375" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6354167" weight="0.3862375" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.51609325" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -911,7 +911,9 @@
     <MESSAGE value="Uploading project" />
     <MESSAGE value="Implemented DriverFactory" />
     <MESSAGE value="Implemented Constants" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented Constants" />
+    <MESSAGE value="Added ReadConfigFile class and config property file" />
+    <MESSAGE value="Added missing file updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added missing file updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1253,8 +1255,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/stepDefinitions/ContactUsSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
