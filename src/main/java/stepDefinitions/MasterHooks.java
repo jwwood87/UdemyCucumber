@@ -10,7 +10,6 @@ public class MasterHooks extends DriverFactory {
     public void setup() {
 
         driver = getDriver();
-
     }
 
     @After

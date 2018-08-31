@@ -1,6 +1,7 @@
 Feature: Nada
   Try to figure out why Selenium is launching two browsers at start up, not just one
 
+  @Smoke
   Scenario: Do nothing
     Description for this scenario
 

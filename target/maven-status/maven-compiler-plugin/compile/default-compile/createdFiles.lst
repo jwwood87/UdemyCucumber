@@ -1,6 +1,7 @@
-utils\ReadConfigFile.class
+stepDefinitions\MasterHooks.class
 stepDefinitions\ProductSteps.class
 utils\DriverFactory.class
-stepDefinitions\ContactUsSteps.class
 Tester\Test.class
+utils\ReadConfigFile.class
+stepDefinitions\ContactUs.class
 utils\Constant.class

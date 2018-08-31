@@ -5,6 +5,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
+import java.util.concurrent.TimeUnit;
+
 public class DriverFactory {
 
     public static WebDriver driver;
@@ -20,7 +22,7 @@ public class DriverFactory {
                     if (driver == null) {
                         System.setProperty("webdriver.gecko.driver", Constant.GECKO_DRIVER_DIRECTORY);
                         DesiredCapabilities capabilities = DesiredCapabilities.firefox();
-                        capabilities.setCapability("marionatte", true);
+                        capabilities.setCapability("marionette", true);
                         driver = new FirefoxDriver();
                     }
                     break;
@@ -36,7 +38,7 @@ public class DriverFactory {
         } catch (Exception e) {
             System.out.println("Unable to load browser: " + e.getMessage());
         } finally {
-            driver.manage().window().maximize();
+            driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
         }
         return driver;
     }

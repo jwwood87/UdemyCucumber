@@ -2,7 +2,7 @@
 Feature: Login into account feature1
   Existing user should be able to login to account using the correct credentials
 
-  @Smoke
+
   Scenario: Login into account with correct credentials number 1
   Description for this scenario
 
