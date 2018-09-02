@@ -1,5 +1,1 @@
-CucumberFramework\steps\LoginSteps.class
 runners\MainRunner.class
-CucumberFramework\WebDriver\Element.class
-CucumberFramework\WebPages\HomePage\HomeHelpers.class
-CucumberFramework\WebPages\HomePage\HomeElements.class

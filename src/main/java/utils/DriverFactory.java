@@ -3,6 +3,7 @@ package utils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.util.concurrent.TimeUnit;
@@ -14,9 +15,9 @@ public class DriverFactory {
     public WebDriver getDriver() {
         try {
             ReadConfigFile file = new ReadConfigFile();
-            String browserName = file.getBrowser();
+            String browser = file.getBrowser();
 
-            switch (browserName) {
+            switch (browser) {
 
                 case "firefox":
                     if (driver == null) {
@@ -34,12 +35,24 @@ public class DriverFactory {
                         driver.manage().window().maximize();
                     }
                     break;
+
+                case "ie":
+                    if (driver == null){
+                        System.setProperty("webdriver.ie.driver", Constant.IE_DRIVER_DIRECTORY);
+                        DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
+                        capabilities.setCapability("ignoreZoomSetting", true);
+                        driver = new InternetExplorerDriver(capabilities);
+                        driver.manage().window().maximize();
+                    }
             }
+
         } catch (Exception e) {
             System.out.println("Unable to load browser: " + e.getMessage());
+
         } finally {
             driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
         }
+
         return driver;
     }
 }

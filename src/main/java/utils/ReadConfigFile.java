@@ -15,7 +15,7 @@ public class ReadConfigFile {
             prop = new Properties();
             prop.load(input);
 
-        } catch(Exception e) {
+        } catch(IOException e) {
             e.printStackTrace();
         }
     }
