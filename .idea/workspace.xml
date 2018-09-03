@@ -301,7 +301,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.BlankWorks">
+  <component name="RunManager" selected="Cucumber java.Feature: ContactUs">
     <configuration name="Test" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tester.Test" />
       <module name="CucumberFramework" />
@@ -665,7 +665,7 @@
       <item itemvalue="Maven.Maven Debug1 Debug2" />
       <item itemvalue="Maven.Maven Smoke" />
       <item itemvalue="Maven.Maven @Lori" />
-      <item itemvalue="Cucumber java.ContactUsWorks" />
+      <item itemvalue="Cucumber java.Feature: ContactUs" />
       <item itemvalue="Cucumber java.BlankWorks" />
       <item itemvalue="Cucumber java.Scenario: Submit Information into the Contact Us form" />
       <item itemvalue="Cucumber java.Feature: Blank" />
@@ -673,10 +673,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Feature: ContactUs" />
         <item itemvalue="Cucumber java.BlankWorks" />
         <item itemvalue="Cucumber java.Feature: Login" />
         <item itemvalue="Cucumber java.Feature: Blank" />
-        <item itemvalue="Cucumber java.ContactUsWorks" />
         <item itemvalue="Cucumber java.Scenario: Submit Information into the Contact Us form" />
       </list>
     </recent_temporary>
