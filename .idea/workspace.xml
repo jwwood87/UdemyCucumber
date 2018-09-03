@@ -2,34 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afa1f4fe-f2b7-416b-a2d1-d3d576fae5df" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tester/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tester/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/properties/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/properties/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stepDefinitions/ContactUs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stepDefinitions/ContactUs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Constant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/DriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ReadConfigFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ReadConfigFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CucumberFramework/WebDriver/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CucumberFramework/WebDriver/Element.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CucumberFramework/WebPages/HomePage/HomeElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CucumberFramework/WebPages/HomePage/HomeElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CucumberFramework/WebPages/HomePage/HomeHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CucumberFramework/WebPages/HomePage/HomeHelpers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CucumberFramework/featureFiles/Blank.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CucumberFramework/featureFiles/Blank.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CucumberFramework/featureFiles/ContactUs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CucumberFramework/featureFiles/ContactUs.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CucumberFramework/featureFiles/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CucumberFramework/featureFiles/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CucumberFramework/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CucumberFramework/steps/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/features/Blank.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/features/Blank.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/features/ContactUs.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/features/ContactUs.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/features/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/MainRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/MainRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Tester/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Tester/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/Constant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/DriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/DriverFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/ReadConfigFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/ReadConfigFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CucumberFramework/WebDriver/Element.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CucumberFramework/WebPages/HomePage/HomeElements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CucumberFramework/WebPages/HomePage/HomeHelpers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CucumberFramework/steps/LoginSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/MainRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/MainRunner.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,56 +25,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MasterHooks.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/stepDefinitions/MasterHooks.java">
+      <file leaf-file-name="Element.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CucumberFramework/WebDriver/Element.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#236#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactUs.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/resources/features/ContactUs.feature">
+      <file leaf-file-name="Blank.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CucumberFramework/featureFiles/Blank.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainRunner.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/runners/MainRunner.java">
+      <file leaf-file-name="ContactUs.feature" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CucumberFramework/featureFiles/ContactUs.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/properties/config.properties">
+      <file leaf-file-name="LoginSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CucumberFramework/steps/LoginSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DriverFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/DriverFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="751">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="842">
+              <caret line="203" column="50" selection-start-line="203" selection-start-column="50" selection-end-line="203" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -160,10 +120,7 @@
         <option value="$PROJECT_DIR$/src/main/java/stepDefinitions/ContactUsSteps.java" />
         <option value="$PROJECT_DIR$/testNg.xml" />
         <option value="$PROJECT_DIR$/src/test/java/CucumberFramework/steps/LoginSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CucumberFramework/featureFiles/Blank.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/CucumberFramework/featureFiles/ContactUs.feature" />
         <option value="$PROJECT_DIR$/src/test/java/CucumberFramework/featureFiles/Login.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/CucumberFramework/WebDriver/Element.java" />
         <option value="$PROJECT_DIR$/src/test/java/CucumberFramework/WebPages/HomePage/HomeElements.java" />
         <option value="$PROJECT_DIR$/src/test/java/CucumberFramework/WebPages/HomePage/HomeHelpers.java" />
         <option value="$PROJECT_DIR$/src/test/java/resources/features/Login.feature" />
@@ -176,6 +133,9 @@
         <option value="$PROJECT_DIR$/src/main/java/properties/config.properties" />
         <option value="$PROJECT_DIR$/src/test/java/resources/features/ContactUs.feature" />
         <option value="$PROJECT_DIR$/src/test/java/runners/MainRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CucumberFramework/WebDriver/Element.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CucumberFramework/featureFiles/Blank.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/CucumberFramework/featureFiles/ContactUs.feature" />
       </list>
     </option>
   </component>
@@ -242,38 +202,6 @@
               <item name="UdemyCucumber" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebDriverU" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="properties" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UdemyCucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebDriverU" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stepDefinitions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UdemyCucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebDriverU" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Tester" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UdemyCucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebDriverU" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UdemyCucumber" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebDriverU" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -289,7 +217,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="CucumberFramework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UdemyCucumber" type="b2602c69:ProjectViewProjectNode" />
@@ -297,8 +225,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="CucumberFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="featureFiles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UdemyCucumber" type="b2602c69:ProjectViewProjectNode" />
@@ -306,8 +234,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
+              <item name="CucumberFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UdemyCucumber" type="b2602c69:ProjectViewProjectNode" />
@@ -315,7 +243,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="runners" type="462c0819:PsiDirectoryNode" />
+              <item name="CucumberFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="WebDriver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UdemyCucumber" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebDriverU" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="CucumberFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="HomePage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -406,12 +344,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Feature: ContactUs" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/CucumberFramework/featureFiles/ContactUs.feature" />
-      <option name="GLUE" value="CucumberFramework.steps" />
+    <configuration name="Feature: Blank" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/CucumberFramework/featureFiles/Blank.feature" />
+      <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="CucumberFramework" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: ContactUs" />
+      <option name="SUGGESTED_NAME" value="Feature: Blank" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -440,6 +379,20 @@
       <module name="CucumberFramework" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
       <option name="SUGGESTED_NAME" value="Feature: ContactUs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/CucumberFramework/featureFiles/Login.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="CucumberFramework" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: Login" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -715,14 +668,16 @@
       <item itemvalue="Cucumber java.ContactUsWorks" />
       <item itemvalue="Cucumber java.BlankWorks" />
       <item itemvalue="Cucumber java.Scenario: Submit Information into the Contact Us form" />
+      <item itemvalue="Cucumber java.Feature: Blank" />
+      <item itemvalue="Cucumber java.Feature: Login" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber java.BlankWorks" />
+        <item itemvalue="Cucumber java.Feature: Login" />
+        <item itemvalue="Cucumber java.Feature: Blank" />
         <item itemvalue="Cucumber java.ContactUsWorks" />
         <item itemvalue="Cucumber java.Scenario: Submit Information into the Contact Us form" />
-        <item itemvalue="Cucumber java.Feature: ContactUs" />
-        <item itemvalue="Cucumber java.Feature: ContactUs" />
       </list>
     </recent_temporary>
   </component>
@@ -821,39 +776,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Junit@Smoke - 2018.09.02 at 15h 49m 26s.xml">
+    <history-entry file="BlankWorks - 2018.09.02 at 16h 23m 54s.xml">
+      <configuration name="BlankWorks" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="BlankWorks - 2018.09.02 at 20h 27m 57s.xml">
+      <configuration name="BlankWorks" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="BlankWorks - 2018.09.02 at 20h 28m 11s.xml">
+      <configuration name="BlankWorks" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="BlankWorks - 2018.09.02 at 20h 28m 38s.xml">
+      <configuration name="BlankWorks" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ContactUsWorks - 2018.09.02 at 20h 29m 41s.xml">
+      <configuration name="ContactUsWorks" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Junit@Smoke - 2018.09.02 at 20h 29m 56s.xml">
       <configuration name="Junit@Smoke" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BlankWorks - 2018.09.02 at 15h 49m 35s.xml">
-      <configuration name="BlankWorks" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ContactUsWorks - 2018.09.02 at 15h 49m 46s.xml">
+    <history-entry file="ContactUsWorks - 2018.09.02 at 20h 31m 42s.xml">
       <configuration name="ContactUsWorks" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="ContactUsWorks - 2018.09.02 at 15h 50m 53s.xml">
-      <configuration name="ContactUsWorks" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__Blank - 2018.09.02 at 20h 31m 59s.xml">
+      <configuration name="Feature: Blank" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Submit_Information_into_the_Contact_Us_form - 2018.09.02 at 15h 56m 15s.xml">
-      <configuration name="Scenario: Submit Information into the Contact Us form" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__Login - 2018.09.02 at 20h 32m 14s.xml">
+      <configuration name="Feature: Login" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="ContactUsWorks - 2018.09.02 at 15h 58m 10s.xml">
-      <configuration name="ContactUsWorks" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Junit@Smoke - 2018.09.02 at 15h 58m 24s.xml">
-      <configuration name="Junit@Smoke" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BlankWorks - 2018.09.02 at 16h 05m 34s.xml">
-      <configuration name="BlankWorks" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="BlankWorks - 2018.09.02 at 16h 07m 28s.xml">
-      <configuration name="BlankWorks" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="BlankWorks - 2018.09.02 at 16h 10m 13s.xml">
+    <history-entry file="BlankWorks - 2018.09.02 at 20h 32m 45s.xml">
       <configuration name="BlankWorks" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139611000" />
+    <option name="totallyTimeSpent" value="140815000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -866,7 +821,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3270073" />
@@ -878,7 +832,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.63272923" visible="true" weight="0.50610435" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.63272923" visible="true" weight="0.3163152" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.51609325" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -891,22 +845,46 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7420043" weight="0.4384018" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32963374" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.20703125" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Learn" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.25799572" side_tool="true" weight="0.37069923" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.75" visible="true" weight="0.34808102" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.20703125" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4978678" weight="0.23862375" />
+      <window_info id="Structure" order="1" sideWeight="0.25" side_tool="true" weight="0.24496645" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7420043" weight="0.4384018" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3270073" />
       <window_info active="true" anchor="bottom" id="Inspection Results" order="8" visible="true" weight="0.32943678" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32963374" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.63272923" visible="true" weight="0.50610435" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.51609325" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Designer" order="2" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.63272923" weight="0.5327414" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.20703125" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.51609325" />
@@ -929,7 +907,6 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" sideWeight="0.25" side_tool="true" weight="0.24496645" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.20703125" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32963374" />
       <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.7420043" visible="true" weight="0.37069923" />
     </layout-to-restore>
@@ -1093,15 +1070,8 @@
     <entry file="file://$PROJECT_DIR$/target/test-classes/resources/features/ContactUs.feature" />
     <entry file="file://$PROJECT_DIR$/src/test/java/CucumberFramework/steps/LoginSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="37" column="14" lean-forward="true" selection-end-line="249" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CucumberFramework/featureFiles/Blank.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-end-line="8" />
+        <state relative-caret-position="842">
+          <caret line="203" column="50" selection-start-line="203" selection-start-column="50" selection-end-line="203" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -1114,8 +1084,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CucumberFramework/WebDriver/Element.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="3" lean-forward="true" selection-end-line="11" />
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#236#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1130,13 +1103,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" lean-forward="true" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CucumberFramework/featureFiles/ContactUs.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1217,10 +1183,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="e#1335#2267#0" expanded="true" />
-            <element signature="e#2266#2267#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1294,9 +1256,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1321,9 +1280,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CucumberFramework/featureFiles/Blank.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CucumberFramework/featureFiles/ContactUs.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
     </entry>
