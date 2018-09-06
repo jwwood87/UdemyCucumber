@@ -65,7 +65,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>3.12.0</version>
+            <version>3.14.0</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
@@ -98,7 +98,7 @@
         <dependency>
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-html</artifactId>
-            <version>0.2.3</version>
+            <version>0.2.6</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->

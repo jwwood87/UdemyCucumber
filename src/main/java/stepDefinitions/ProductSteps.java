@@ -1,4 +1,6 @@
 package stepDefinitions;
 
-public class ProductSteps {
+import utils.DriverFactory;
+
+public class ProductSteps extends DriverFactory {
 }

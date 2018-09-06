@@ -7,10 +7,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions (
-        features =  {"features"},
-        glue =      {"stepDefinitions"},
+        features =  {"src/test/java/resources/features"},
+        glue =      {"java.stepDefinitions"},
         monochrome = true,
-        tags = {},
+        tags = {"@Smoke"},
         dryRun = false,
         plugin = {"pretty",
                     "html:target/cucumber",
